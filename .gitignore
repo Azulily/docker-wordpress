@@ -1,3 +1,14 @@
 /conf.d
 /mysql
-/wordpress
+wordpress/wp-admin
+wordpress/wp-includes
+wordpress/wp-content/*.php
+wordpress/wp-content/themes/*.php
+wordpress/wp-content/ai1wm-backups
+wordpress/wp-content/languages
+wordpress/wp-content/plugins
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/
+wordpress/*.php
+wordpress/*.html
+license.txt
