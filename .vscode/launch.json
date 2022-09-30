@@ -12,7 +12,7 @@
             "port": 9003,
             "hostname": "127.0.0.1",
             "pathMappings": {
-                "/var/www/html/":"${workspaceRoot}/www/html"
+                "/var/www/html/":"${workspaceRoot}/wordpress/"
             }
         }
     ]

@@ -22,6 +22,7 @@ services:
         volumes:                            # 今回追加
             - ./wordpress:/var/www/html     # ホスト側の ./wordpress をコンテナ内の /var/www/html にマウント
             - ./conf.d/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+            - ./docker/php.ini:/usr/local/etc/php/php.ini
         ports:
             - "8080:80"
         restart: always
