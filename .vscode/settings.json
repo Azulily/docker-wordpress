@@ -1,0 +1,14 @@
+{
+    "php.validate.executablePath": "./php.sh",
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": "/www/html/assets/css",
+          },
+        ],
+        "liveSassCompile.settings.autoprefix": [
+          "> 3% in JP",
+          "last 2 versions"
+        ],
+}

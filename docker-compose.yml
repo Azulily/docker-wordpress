@@ -16,7 +16,9 @@ services:
     wordpress:
         depends_on:
             - mysql
-        image: wordpress
+        build:
+            context: ./docker
+        container_name: wordpress
         volumes:                            # 今回追加
             - ./wordpress:/var/www/html     # ホスト側の ./wordpress をコンテナ内の /var/www/html にマウント
             - ./conf.d/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
