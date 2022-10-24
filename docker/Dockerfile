@@ -11,5 +11,16 @@ RUN pecl install xdebug \
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN apt install git -y
 
+RUN apt install -y \
+    ruby \
+    ruby-dev \
+    rubygems \
+    libsqlite3-dev \
+  && apt-get autoremove \
+  && apt-get clean
+RUN gem install mailcatcher
+
+COPY ./php.ini /usr/local/etc/php/
+
 CMD ["apache2-foreground"]
 
