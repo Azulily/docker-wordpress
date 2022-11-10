@@ -4,11 +4,17 @@
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "/www/html/assets/css",
+            "savePath": "/wordpress/wp-content/themes/swell_child/assets/css", //swell以外のthemeを使う時は書き換える
           },
         ],
         "liveSassCompile.settings.autoprefix": [
           "> 3% in JP",
           "last 2 versions"
         ],
+        "liveSassCompile.settings.excludeList": [
+          "/**/arkhe/**",
+          "/**/swell/**",
+          "/**/wp-admin/**",
+          "/**/plugins/**"
+      ]
 }

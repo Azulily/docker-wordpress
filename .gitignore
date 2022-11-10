@@ -4,6 +4,10 @@ wordpress/wp-admin
 wordpress/wp-includes
 wordpress/wp-content/*.php
 wordpress/wp-content/themes/*.php
+wordpress/wp-content/themes/twentytwenty
+wordpress/wp-content/themes/twentytwentyone
+wordpress/wp-content/themes/twentytwentytwo
+wordpress/wp-content/themes/twentytwentythree
 wordpress/wp-content/ai1wm-backups
 wordpress/wp-content/languages
 wordpress/wp-content/plugins
