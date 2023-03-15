@@ -1,4 +1,4 @@
-FROM wordpress:6.0-php7.4-apache
+FROM wordpress:6.0-php8.1-apache
 
 RUN apt update && apt install -y \
     vim
