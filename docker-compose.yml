@@ -30,3 +30,4 @@ services:
             WORDPRESS_DB_HOST: mysql
             WORDPRESS_DB_USER: wordpress
             WORDPRESS_DB_PASSWORD: wordpress
+        user: "${UID_GID}"
