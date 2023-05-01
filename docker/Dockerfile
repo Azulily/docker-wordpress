@@ -1,5 +1,5 @@
-FROM wordpress:6.0-php8.1-apache
-
+FROM wordpress:6.2-php8.0-apache
+                
 RUN apt update && apt install -y \
     vim
 RUN docker-php-ext-install pdo_mysql
